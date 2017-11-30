@@ -1,0 +1,38 @@
+﻿
+Log Entry : 3:00:08 PM Saturday, July 15, 2017
+  :
+  :
+-------------------------------
+
+Log Entry : 3:00:47 PM Saturday, July 15, 2017
+  :
+  :
+-------------------------------
+
+Log Entry : 3:07:19 PM Saturday, July 15, 2017
+  :
+  :   at Microsoft.Office.Interop.Word.Selection.PasteSpecial(Object& IconIndex, Object& Link, Object& Placement, Object& DisplayAsIcon, Object& DataType, Object& IconFileName, Object& IconLabel)
+   at MyRibbonAddIn.Tools.PasteSpecialUnformatted() in D:\Arif\AdvancedlegalCode\RunningCode\MyRibbonAddIn\MyRibbonAddIn\Tools.cs:line 148
+   at MyRibbonAddIn.LocalRibbon.OnPasteUnFormated(IRibbonControl control) in D:\Arif\AdvancedlegalCode\RunningCode\MyRibbonAddIn\MyRibbonAddIn\LocalRibbon.cs:line 155
+-------------------------------
+
+Log Entry : 3:07:39 PM Saturday, July 15, 2017
+  :
+  :   at Microsoft.Office.Interop.Word.Selection.PasteSpecial(Object& IconIndex, Object& Link, Object& Placement, Object& DisplayAsIcon, Object& DataType, Object& IconFileName, Object& IconLabel)
+   at MyRibbonAddIn.Tools.PasteSpecialUnformatted() in D:\Arif\AdvancedlegalCode\RunningCode\MyRibbonAddIn\MyRibbonAddIn\Tools.cs:line 148
+   at MyRibbonAddIn.LocalRibbon.OnPasteUnFormated(IRibbonControl control) in D:\Arif\AdvancedlegalCode\RunningCode\MyRibbonAddIn\MyRibbonAddIn\LocalRibbon.cs:line 155
+-------------------------------
+
+Log Entry : 3:07:39 PM Saturday, July 15, 2017
+  :
+  :   at Microsoft.Office.Interop.Word.Selection.PasteSpecial(Object& IconIndex, Object& Link, Object& Placement, Object& DisplayAsIcon, Object& DataType, Object& IconFileName, Object& IconLabel)
+   at MyRibbonAddIn.Tools.PasteSpecialUnformatted() in D:\Arif\AdvancedlegalCode\RunningCode\MyRibbonAddIn\MyRibbonAddIn\Tools.cs:line 148
+   at MyRibbonAddIn.LocalRibbon.OnPasteUnFormated(IRibbonControl control) in D:\Arif\AdvancedlegalCode\RunningCode\MyRibbonAddIn\MyRibbonAddIn\LocalRibbon.cs:line 155
+-------------------------------
+
+Log Entry : 3:07:40 PM Saturday, July 15, 2017
+  :
+  :   at Microsoft.Office.Interop.Word.Selection.PasteSpecial(Object& IconIndex, Object& Link, Object& Placement, Object& DisplayAsIcon, Object& DataType, Object& IconFileName, Object& IconLabel)
+   at MyRibbonAddIn.Tools.PasteSpecialUnformatted() in D:\Arif\AdvancedlegalCode\RunningCode\MyRibbonAddIn\MyRibbonAddIn\Tools.cs:line 148
+   at MyRibbonAddIn.LocalRibbon.OnPasteUnFormated(IRibbonControl control) in D:\Arif\AdvancedlegalCode\RunningCode\MyRibbonAddIn\MyRibbonAddIn\LocalRibbon.cs:line 155
+-------------------------------

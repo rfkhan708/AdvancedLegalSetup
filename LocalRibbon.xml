@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="OnLoad">
+  <ribbon>
+    
+    <tabs>
+      <tab id="Local" label="LEGAL" >
+        <group id="ContentGroup" label="Advanced Legal Toolbar">
+          <box id="box" boxStyle="horizontal">
+            <button id="textButton" getImage="GetCustomImage" size="large" label="Legal Numbering"
+       screentip="Legal Numbering Interface" onAction="OnNumberingButton" />
+            <!--supertip="Inserts text at the cursor location."  -->
+            <button id="tableButton" imageMso="ParagraphMarks" size="large" label="Hidden Paragraph"
+                 screentip="Show paragraph marks and other hidden formating symbols." onAction="OnHiddenParagraphButton" />
+            <!--supertip="Inserts a table at the cursor location."-->
+            <button id="StraightToSmartButton" getImage="GetCustomImage"  size="large" label="Straight To Smart Quotes"
+                   screentip="Straight To Smart Quotes" onAction="OnStrTosmrtQuotes" />
+            <button id="SmartToStraightButton" getImage="GetCustomImage"  size="large" label="Smart To Straight Quotes"
+                   screentip="Smart To Straight Quotes" onAction="OnSmrtToStrQuotes"/>
+
+            <button id="SmartToStraightButton2" size="large" label="Smart To Straight apostrophe"
+                    screentip="Smart To Straight apostrophe" onAction="OnSmrtToStrApostrophe" getImage="GetCustomImage"/>
+            <button id="SmartToStraightButton23" getImage="GetCustomImage"  size="large" label="Straight To Smart apostrophe"
+                        screentip="Straight To Smart apostrophe" onAction="OnStrTosmrtApostrophe"/>
+
+            <button id="btnPasteSpecialdmd" imageMso="Diamond"  size="large" label="Paste Special Unformatted"
+                   screentip="Paste Special Unfomartted" onAction="OnPasteUnFormatted" />
+            <button id="btnBlankDoc" getImage="GetCustomImage"  size="large" label="New Blank Document"
+                 screentip="New Blank Document" onAction="OnNewDocument"/>
+            <button id="btnAboutAddIn" imageMso="PictureRecolorGallery"   size="large" label="About Add-In"
+                screentip="About Add-In" onAction="OnAboutAddIn"/>
+            <button id="btnTemplate"   size="large" label="Template Edit Window"
+                    screentip="Display Template Edit Window For Modify the the Opne document" onAction="OnTemplateEdit"/>
+          </box>
+        </group>
+      </tab>
+      
+    </tabs>
+  </ribbon>
+</customUI>
+
